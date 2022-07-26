@@ -8,12 +8,18 @@ import { AppComponent } from './app.component';
 import { AuthModule } from '@auth0/auth0-angular';
 import { SignInAuth0Component } from './components/sign-in-auth0/sign-in-auth0.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
+import { SignInAmatorComponent } from './components/sign-in-amator/sign-in-amator.component';
+import { SignUpAmatorComponent } from './components/sign-up-amator/sign-up-amator.component';
+import { KvkkEnvanterComponent } from './components/kvkk-envanter/kvkk-envanter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignInAuth0Component,
-    UserProfileComponent
+    UserProfileComponent,
+    SignInAmatorComponent,
+    SignUpAmatorComponent,
+    KvkkEnvanterComponent
   ],
   imports: [
     BrowserModule,
