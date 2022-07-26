@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 
 // Import the module from the SDK
 import { AuthModule } from '@auth0/auth0-angular';
-import { SignInComponent } from './components/sign-in/sign-in.component';
+import { SignInAuth0Component } from './components/sign-in-auth0/sign-in-auth0.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignInComponent,
+    SignInAuth0Component,
     UserProfileComponent
   ],
   imports: [

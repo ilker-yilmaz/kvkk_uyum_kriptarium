@@ -5,7 +5,7 @@ import { AuthService } from '@auth0/auth0-angular';
 import { DOCUMENT } from '@angular/common';
 
 @Component({
-  selector: 'app-sign-in',
+  selector: 'app-sign-in-auth0',
   template: `
     <ng-container *ngIf="auth.isAuthenticated$ | async; else loggedOut">
       <button (click)="auth.logout({ returnTo: document.location.origin })">
@@ -17,10 +17,10 @@ import { DOCUMENT } from '@angular/common';
       <button (click)="auth.loginWithRedirect()">Log in</button>
     </ng-template>
   `,
-  templateUrl: './sign-in.component.html',
-  styleUrls: ['./sign-in.component.css'],
+  templateUrl: './sign-in-auth0.component.html',
+  styleUrls: ['./sign-in-auth0.component.css'],
 })
-export class SignInComponent implements OnInit {
+export class SignInAuth0Component implements OnInit {
   constructor(
     @Inject(DOCUMENT) public document: Document,
     public auth: AuthService
