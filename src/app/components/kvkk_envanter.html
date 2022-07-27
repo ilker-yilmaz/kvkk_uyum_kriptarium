@@ -16,44 +16,391 @@
   <div class="bg-primary"><h3>Organizasyon</h3></div>
 
   <div class="row m-0">
-    <div class="col border"><h4>Departman İsmi</h4></div>
-    <div class="col border"><h4>Bilgi Girişi Yapan Kişi</h4></div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>Bilgi Girişi Yapan Kişi</option>
+        <option value="ik">İnsan Kaynakları</option>
+        <option value="muhasebe">Muhasebe </option>
+        <option value="idari">İdari İşler</option>
+        <option value="diger">Diğer</option>
+      </select>
+    </div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>Bilgi Girişi Yapan Kişi</option>
+        <option value="ik">İnsan Kaynakları Yetkilisi</option>
+        <option value="muhasebe">Muhasebe Yetkilisi</option>
+        <option value="idari">İdari İşler Yetkilisi</option>
+        <option value="diger">Diğer</option>
+      </select>
+    </div>
   </div>
 
   <div class="bg-secondary"><h3>Süreç</h3></div>
 
   <div class="row">
-    <div class="col border"><h4>İş Süreci</h4></div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>İş Süreci</option>
+        <option value="ik">İşe Alım Başvuru Süreci</option>
+        <option value="muhasebe">Özlük/option>
+        <option value="idari">Agi</option>
+        <option value="diger">Diğer</option>
+      </select>
+    </div>
     <div class="col border"><h4>Veri İşleme Faaliyetlerinin Açıklanması</h4></div>
-    <div class="col border"><h4>Kişisel Verisi İşlenilen Kişi</h4></div>
-    <div class="col border"><h4>Kişisel Verilerin Toplanma Yöntemi</h4></div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>Kişisel Verisi İşlenen Kişi</option>
+        <option value="ik">Çalışan Adayı</option>
+        <option value="muhasebe">Çalışan</option>
+        <option value="idari">Tedarikçi Çalışanı</option>
+        <option value="idari">Tedarikçi Yetkilisi</option>
+        <option value="idari">Ürün veya Hizmet Alan Kişi</option>
+        <option value="idari">Potansiyel Ürün veya Hizmet Alıcısı</option>
+        <option value="idari">Denek</option>
+        <option value="idari">Habere Konu Olan Kişi</option>
+        <option value="idari">Hissedar / Ortak</option>
+        <option value="idari">Sınav Adayı / Stajyer</option>
+        <option value="idari">Veli / Vasi / Temsilci</option>
+        <option value="idari">Ziyaretçi</option>
+        <option value="diger">Diğer (Lütfen Belirtiniz)</option>
+      </select>
+    </div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>Kişisel Verilerin Toplanma Yöntemi</option>
+        <option value="ik">İlgili Kişiden Yazılı Form Aracılığıyla</option>
+        <option value="muhasebe">İlgili Kişinin İnternet Sitesi Üzerinden Form Doldurması İle (lütfen formun ismini belirtiniz.)</option>
+        <option value="idari">İlgili Kişiden E-mail ile</option>
+        <option value="idari">İlgili Kişiden Elektronik Veri Transferi İle</option>
+        <option value="idari">İlgili Kişiden Diğer Elektronik Ortamlarda(lütfen belirtiniz.)</option>
+        <option value="idari">İlgili Kişiden Telefon Yoluyla</option>
+        <option value="idari">İlgili Kişiden Sözlü Olarak</option>
+        <option value="idari">3. Kişi İş Ortaklarından E-mail İle</option>
+        <option value="idari">3. Kişi İş Ortaklarından internet üzerinden</option>
+        <option value="idari">3. Kişi İş Ortaklarından Telefon İle</option>
+        <option value="idari">3. Kişinin Kişisel Verisini Alenileştirmiş Olduğu Ortamdan (örneğin internet sitesi)</option>
+        <option value="idari">3. Kişi İş Ortaklarından Sözlü Olarak</option>
+        <option value="idari">3. Kişi İş Ortaklarından Diğer Elektronik Ortamlarda (lütfen belirtiniz.)</option>
+        <option value="diger">Diğer (Lütfen Belirtiniz)</option>
+      </select>
+    </div>
   </div>
 
   <div class="bg-info"><h3>İşlenen Veriler</h3></div>
 
   <div class="row">
-    <div class="col border"><h4>İşlenen Veriler (Kişisel veya Özel Nitelikli Veriler)</h4></div>
-    <div class="col border"><h4>İşlenen Kişisel Veri Kategorisi</h4></div>
-    <div class="col border"><h4>İşlenen Özel Nitelikli Veri Kategorisi</h4></div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>İşlenen Veriler</option>
+        <option value="ik">Kimlik</option>
+        <option value="muhasebe">İletişim</option>
+        <option value="idari">Lokasyon</option>
+        <option value="idari">Özlük</option>
+        <option value="idari">Hukuki İşlem</option>
+        <option value="idari">Müşteri İşlem</option>
+        <option value="idari">Fiziksel Mekan Güvenliği</option>
+        <option value="idari">İşlem Güvenliği</option>
+        <option value="idari">Risk Yönetimi</option>
+        <option value="idari">Finans</option>
+        <option value="idari">Mesleki Deneyim</option>
+        <option value="idari">Irk ve Etnik Köken</option>
+        <option value="idari">Siyasi Düşünce Bilgileri</option>
+        <option value="idari">Felsefi İnanç, Din, Mezhep ve Diğer inaçlar</option>
+        <option value="idari">Kılık Kıyafet</option>
+        <option value="idari">Vakıf, Dernek veya Sendika Üyeliği</option>
+        <option value="idari">Sağlık Bilgileri</option>
+        <option value="idari">Cinsel Hayat</option>
+        <option value="idari">Ceza Mahkumiyeti ve Güvenlik Tedbirleri</option>
+        <option value="idari">Biyometrik Veri</option>
+        <option value="idari">Genetik Veri</option>
+        <option value="idari">Pazarlama</option>
+        <option value="idari">Görsel veya İşitsel Kayıtlar</option>
+        <option value="diger">Diğer (Lütfen Belirtiniz)</option>
+      </select>
+    </div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>İşlenen Kişisel Veriler</option>
+        <option value="ik">Kimlik</option>
+        <option value="muhasebe">İletişim</option>
+        <option value="idari">Lokasyon</option>
+        <option value="idari">Özlük</option>
+        <option value="idari">Hukuki İşlem</option>
+        <option value="idari">Müşteri İşlem</option>
+        <option value="idari">Fiziksel Mekan Güvenliği</option>
+        <option value="idari">İşlem Güvenliği</option>
+        <option value="idari">Risk Yönetimi</option>
+        <option value="idari">Finans</option>
+        <option value="idari">Mesleki Deneyim</option>
+        <option value="idari">Pazarlama</option>
+        <option value="idari">Görsel veya İşitsel Kayıtlar</option>
+        <option value="diger">Diğer (Lütfen Belirtiniz)</option>
+      </select>
+    </div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="idari">Irk ve Etnik Köken</option>
+        <option value="idari">Siyasi Düşünce Bilgileri</option>
+        <option value="idari">Felsefi İnanç, Din, Mezhep ve Diğer inaçlar</option>
+        <option value="idari">Kılık Kıyafet</option>
+        <option value="idari">Vakıf, Dernek veya Sendika Üyeliği</option>
+        <option value="idari">Sağlık Bilgileri</option>
+        <option value="idari">Cinsel Hayat</option>
+        <option value="idari">Ceza Mahkumiyeti ve Güvenlik Tedbirleri</option>
+        <option value="idari">Biyometrik Veri</option>
+        <option value="idari">Genetik Veri</option>
+        <option value="seciniz" selected>İşlenen Özel Nitelikli Kişisel Veriler</option>
+        <option value="diger">Diğer (Lütfen Belirtiniz)</option>
+      </select>
+    </div>
     <div class="col border"><h4>İşlenmesi Gerekli Olmayan Veriler</h4></div>
   </div>
 
   <div class="bg-light"><h3>Amaç</h3></div>
   <div class="row">
-    <div class="col border"><h4>Kişisel Verileri İşleme Amacı</h4></div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>
+          Kişisel Verilerin İşlenme Amaçları
+        </option>
+        <option value="ik">
+          Acil Durum Yönetimi Süreçlerinin Yürütülmesi
+        </option>
+        <option value="muhasebe">
+          Bilgi Güvenliği Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Çalışan Adayı / Stajyer / Öğrenci Seçme ve Yerleştirme Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Çalışan Adaylarının Başvuru Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Çalışan Memnuniyeti ve Bağlılığı Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Çalışanlar İçin İş Akdi ve Mevzuattan Kaynaklı Yükümlülüklerin Yerine Getirilmesi
+        </option>
+        <option value="idari">
+          Çalışanlar İçin Yan Haklar ve Menfaatleri Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Denetim / Etik Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Eğitim Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Erişim Yetkilerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Faaliyetlerin Mevzuata Uygun Yürütülmesi
+        </option>
+        <option value="idari">
+          Finans ve Muhasebe İşlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Firma / Ürün / Hizmetlere Bağlılık Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Fiziksel Mekan Güvenliğinin Temini
+        </option>
+        <option value="idari">
+          Görevlendirme Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Hukuk İşlerinin Takibi Ve Yürütülmesi
+        </option>
+        <option value="idari">
+          İç Denetim/ Soruşturma / İstihbarat Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          İletişim Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          İnsan Kaynakları Süreçlerinin Planlanması
+        </option>
+        <option value="idari">
+          İş Faaliyetlerinin Yürütülmesi / Denetimi
+        </option>
+        <option value="idari">
+          İş Sağlığı / Güvenliği Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          İş Süreçlerinin İyileştirilmesine Yönelik Önerilerin Alınması ve Değerlendirilmesi
+        </option>
+        <option value="idari">
+          İş Sürekliliğinin Sağlanması Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Lojistik Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Mal / Hizmet Satın Alım Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Mal / Hizmet Satış Sonrası Destek Hizmetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Mal / Hizmet Satış Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Mal / Hizmet Üretim ve Operasyon Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Müşteri İlişkileri Yönetimi Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Müşteri Memnuniyetine Yönelik Aktivitelerin Yürütülmesi
+        </option>
+        <option value="idari">
+          Organizasyon ve Etkinlik Yönetimi
+        </option>
+        <option value="idari">
+          Pazarlama Analiz Çalışmalarının Yürütülmesi
+        </option>
+        <option value="idari">
+          Performans Değerlendirme Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Reklam / Kampanya / Promosyon Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Risk Yönetimi Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Saklama ve Arşiv Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Sosyal Sorumluluk ve Sivil Toplum Aktivitelerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Sözleşme Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Sponsorluk Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Stratejik Planlama Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Talep / Şikayetlerin Takibi
+        </option>
+        <option value="idari">
+          Taşınır Mal ve Kaynakların Güvenliğinin Temini
+        </option>
+        <option value="idari">
+          Tedarik Zinciri Yönetimi Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Ücret Politikasının Yürütülmesi
+        </option>
+        <option value="idari">
+          Ürün / Hizmetlerin Pazarlama Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Veri Sorumlusu Operasyonlarının Güvenliğinin Temini
+        </option>
+        <option value="idari">
+          Yabancı Personel Çalışma ve Oturma İzni İşlemleri
+        </option>
+        <option value="idari">
+          Yatırım Süreçlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Yetenek / Kariyer Gelişimi Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Yetkili Kişi, Kurum ve Kuruluşlara Bilgi Verilmesi
+        </option>
+        <option value="idari">
+          Yönetim Faaliyetlerinin Yürütülmesi
+        </option>
+        <option value="idari">
+          Ziyaretçi Kayıtlarının Oluşturulması ve Takibi
+        </option>
+        <option value="diger">Diğer (Lütfen Belirtiniz)</option>
+      </select>
+    </div>
   </div>
 
   <div class="bg-danger"><h3>Kişisel Verilerin Yurt İçindeki 3. Kişilere Aktarımı</h3></div>
 
   <div class="row">
-    <div class="col border"><h4>Verilerin Yurt İçinde Paylaşıldığı Alıcı Grupları</h4></div>
-    <div class="col border"><h4>Yurt İçindeki Alıcı Grupları ile Paylaşım Amaçları</h4></div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>
+          Verilerin Yurt İçinde Paylaşıldığı Alıcı/Alıcı Grupları
+        </option>
+        <option value="idari">
+          Gerçek kişiler veya özel hukuk tüzel kişileri
+        </option>
+        <option value="idari">
+          Herkese açık
+        </option>
+        <option value="idari">
+          Hissedarlar
+        </option>
+        <option value="idari">
+          İş Ortakları
+        </option>
+        <option value="idari">
+          İştirakler ve bağlı ortaklıklar
+        </option>
+        <option value="idari">
+          Tedarikçiler
+        </option>
+        <option value="idari">
+          Topluluk Şirketleri
+        </option>
+        <option value="idari">
+          Yetkili Kamu Kurum ve Kuruluşları
+        </option>
+        <option value="diger">Diğer (Lütfen Belirtiniz)</option>
+      </select>
+    </div>
+    <div class="col border">
+      <h4>Yurt İçindeki Alıcı Grupları ile Paylaşım Amaçları</h4>
+    </div>
   </div>
 
   <div class="bg-success"><h3>Kişisel Verilerin Yurt Dışındaki 3. Kişilere Aktarımı</h3></div>
 
   <div class="row">
-    <div class="col border"><h4>Verilerin Yurt Dışında Paylaşıldığı Alıcı Grupları</h4></div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>
+          Verilerin Yurt Dışında Paylaşıldığı Alıcı Grupları
+        </option>
+        <option value="idari">
+          Gerçek kişiler veya özel hukuk tüzel kişileri
+        </option>
+        <option value="idari">
+          Herkese açık
+        </option>
+        <option value="idari">
+          Hissedarlar
+        </option>
+        <option value="idari">
+          İş Ortakları
+        </option>
+        <option value="idari">
+          İştirakler ve bağlı ortaklıklar
+        </option>
+        <option value="idari">
+          Tedarikçiler
+        </option>
+        <option value="idari">
+          Topluluk Şirketleri
+        </option>
+        <option value="idari">
+          Yetkili Kamu Kurum ve Kuruluşları
+        </option>
+        <option value="diger">Diğer (Lütfen Belirtiniz)</option>
+      </select>
+    </div>
     <div class="col border"><h4>Yurt Dışına Paylaşılan Veriler</h4></div>
     <div class="col border"><h4>Verilerin Yurt Dışına Aktarıldığı Ülke/ler</h4></div>
     <div class="col border"><h4>Yurt Dışındaki Alıcı Grupları ile Paylaşım Amaçları</h4></div>
@@ -76,7 +423,134 @@
   <div class="bg-danger"><h3>Güvenlik Tedbirleri</h3></div>
 
   <div class="row">
-    <div class="col border"><h4>Kişisel Verileri Korumak İçin Alınan Teknik ve İdari Tedbirler Nelerdir ?</h4></div>
+    <div class="col border">
+      <select style="width:100% !important; font-size:25px !important;">
+        <option value="seciniz" selected>
+          Kişisel Verileri Korumak İçin Alınan Teknik ve İdari Tedbirler Nelerdir ?
+        </option>
+        <option value="ik">
+          Ağ güvenliği ve uygulama güvenliği sağlanmaktadır.
+        </option>
+        <option value="muhasebe">
+          Ağ yoluyla kişisel veri aktarımlarında kapalı sistem ağ kullanılmaktadır.
+        </option>
+        <option value="idari">
+          Anahtar yönetimi uygulanmaktadır.
+        </option>
+        <option value="idari">
+          Bilgi teknolojileri sistemleri tedarik, geliştirme ve bakımı kapsamındaki güvenlik önlemleri alınmaktadır.
+        </option>
+        <option value="idari">
+          Bulutta depolanan kişisel verilerin güvenliği sağlanmaktadır.
+        </option>
+        <option value="idari">
+          Çalışanlar için veri güvenliği hükümleri içeren disiplin düzenlemeleri mevcuttur.
+        </option>
+        <option value="idari">
+          Çalışanlar için veri güvenliği konusunda belli aralıklarla eğitim ve farkındalık çalışmaları yapılmaktadır.
+        </option>
+        <option value="idari">
+          Çalışanlar için yetki matrisi oluşturulmuştur.
+        </option>
+        <option value="idari">
+          Erişim logları düzenli olarak tutulmaktadır.
+        </option>
+        <option value="idari">
+          Erişim, bilgi güvenliği, kullanım, saklama ve imha konularında kurumsal politikalar hazırlanmış ve uygulamaya başlanmıştır.
+        </option>
+        <option value="idari">
+          Gerektiğinde veri maskeleme önlemi uygulanmaktadır.       
+        </option>
+        <option value="idari">
+          Gizlilik taahhütnameleri yapılmaktadır.
+        </option>
+        <option value="idari">
+          Görev değişikliği olan ya da işten ayrılan çalışanların bu alandaki yetkileri kaldırılmaktadır.
+        </option>
+        <option value="idari">
+          Güncel anti-virüs sistemleri kullanılmaktadır.
+        </option>
+        <option value="idari">
+          Güvenlik duvarları kullanılmaktadır.
+        </option>
+        <option value="idari">
+          İmzalanan sözleşmeler veri güvenliği hükümleri içermektedir.
+        </option>
+        <option value="idari">
+          Kağıt yoluyla aktarılan kişisel veriler için ekstra güvenlik tedbirleri alınmakta ve ilgili evrak gizlilik dereceli belge formatında gönderilmektedir.
+        </option>
+        <option value="idari">
+          Kişisel veri güvenliği politika ve prosedürleri belirlenmiştir.
+        </option>
+        <option value="idari">
+          Kişisel veri güvenliği sorunları hızlı bir şekilde raporlanmaktadır.
+        </option>
+        <option value="idari">
+          Kişisel veri güvenliğinin takibi yapılmaktadır.
+        </option>
+        <option value="idari">
+          Kişisel veri içeren fiziksel ortamlara giriş çıkışlarla ilgili gerekli güvenlik önlemleri alınmaktadır.
+        </option>
+        <option value="idari">
+          Kişisel veri içeren fiziksel ortamların dış risklere (yangın, sel vb.) karşı güvenliği sağlanmaktadır.
+        </option>
+        <option value="idari">
+          Kişisel veri içeren ortamların güvenliği sağlanmaktadır.
+        </option>
+        <option value="idari">
+          Kişisel veriler mümkün olduğunca azaltılmaktadır.
+        </option>
+        <option value="idari">
+          Kişisel veriler yedeklenmekte ve yedeklenen kişisel verilerin güvenliği de sağlanmaktadır.
+        </option>
+        <option value="idari">
+          Kullanıcı hesap yönetimi ve yetki kontrol sistemi uygulanmakta olup bunların takibi de yapılmaktadır.
+        </option>
+        <option value="idari">
+          Kurum içi periyodik ve/veya rastgele denetimler yapılmakta ve yaptırılmaktadır.
+        </option>
+        <option value="idari">
+          Log kayıtları kullanıcı müdahalesi olmayacak şekilde tutulmaktadır.
+        </option>
+        <option value="idari">
+          Mevcut risk ve tehditler belirlenmiştir.
+        </option>
+        <option value="idari">
+          Özel nitelikli kişisel veri güvenliğine yönelik protokol ve prosedürler belirlenmiş ve uygulanmaktadır.
+        </option>
+        <option value="idari">
+          Özel nitelikli kişisel veriler elektronik posta yoluyla gönderilecekse mutlaka şifreli olarak ve KEP veya kurumsal posta hesabı kullanılarak gönderilmektedir.
+        </option>
+        <option value="idari">
+          Özel nitelikli kişisel veriler için güvenli şifreleme / kriptografik anahtarlar kullanılmakta ve farklı birimlerce yönetilmektedir.
+        </option>
+        <option value="idari">
+          Saldırı tespit ve önleme sistemleri kullanılmaktadır.
+        </option>
+        <option value="idari">
+          Sızma testi uygulanmaktadır.
+        </option>
+        <option value="idari">
+          Siber güvenlik önlemleri alınmış olup uygulanması sürekli takip edilmektedir.
+        </option>
+        <option value="idari">
+          Şifreleme yapılmaktadır.
+        </option>
+        <option value="idari">
+          Taşınabilir bellek, CD, DVD ortamında aktarılan özel nitelikli kişiler veriler şifrelenerek aktarılmaktadır.
+        </option>
+        <option value="idari">
+          Veri işleyen hizmet sağlayıcılarının veri güvenliği konusunda belli aralıklarla denetimi sağlanmaktadır.
+        </option>
+        <option value="idari">
+          Veri işleyen hizmet sağlayıcılarının, veri güvenliği konusunda farkındalığı sağlanmaktadır.
+        </option>
+        <option value="idari">
+          Veri kaybı önleme yazılımları kullanılmaktadır.
+        </option>
+        <option value="diger">Diğer (Lütfen Belirtiniz)</option>
+      </select>
+    </div>
   </div>
 
 

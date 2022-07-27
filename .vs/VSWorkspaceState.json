@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components"
   ],
-  "SelectedNode": "\\src\\kvkk_envanter.html",
+  "SelectedNode": "\\src\\app\\components\\kvkk_envanter.html",
   "PreviewInSolutionExplorer": false
 }
