@@ -11,6 +11,8 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
 import { SignInAmatorComponent } from './components/sign-in-amator/sign-in-amator.component';
 import { SignUpAmatorComponent } from './components/sign-up-amator/sign-up-amator.component';
 import { KvkkEnvanterComponent } from './components/kvkk-envanter/kvkk-envanter.component';
+import { VeriGirisComponent } from './components/veri-giris/veri-giris.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { KvkkEnvanterComponent } from './components/kvkk-envanter/kvkk-envanter.
     UserProfileComponent,
     SignInAmatorComponent,
     SignUpAmatorComponent,
-    KvkkEnvanterComponent
+    KvkkEnvanterComponent,
+    VeriGirisComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
