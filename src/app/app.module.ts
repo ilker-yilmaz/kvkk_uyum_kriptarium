@@ -13,6 +13,7 @@ import { SignUpAmatorComponent } from './components/sign-up-amator/sign-up-amato
 import { KvkkEnvanterComponent } from './components/kvkk-envanter/kvkk-envanter.component';
 import { VeriGirisComponent } from './components/veri-giris/veri-giris.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
       domain: 'ilker-blog.us.auth0.com',
       clientId: 'KM6xbU0dbnkcBFAnqABqU9DWDMe3TAzz'
     }),
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
