@@ -88,12 +88,7 @@
         <h1 class="h3 mb-3 fw-normal">Kayıt Ol</h1>
 
         <div class="form-floating">
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            placeholder="Ad"
-          />
+          <input type="text" class="form-control" id="name" placeholder="Ad" />
           <label for="floatingPassword">Ad</label>
         </div>
         <div class="form-floating">
@@ -153,9 +148,15 @@
 
         <div>
           Zaten bir hesabınız var mı?
-          <a href="" class="text-info m-l-5"><b>Giriş Yap</b>
+          <a
+            href=""
+            class="text-info m-l-5"
+            routerLink="/sign-in"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            ><b>Giriş Yap</b>
           </a>
-      </div>
+        </div>
         <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
       </form>
     </main>

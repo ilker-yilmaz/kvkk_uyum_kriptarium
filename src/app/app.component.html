@@ -1,4 +1,4 @@
-
+<!--
 <div class="container">
   <app-sign-in-amator></app-sign-in-amator>
   <br>
@@ -11,12 +11,42 @@
   <app-user-profile></app-user-profile>
 </div>
 
-<br />
-<!-- <app-sign-up-amator></app-sign-up-amator> -->
-<!-- <app-kvkk-envanter></app-kvkk-envanter> -->
+<br /> <app-sign-up-amator></app-sign-up-amator>
+ <app-kvkk-envanter></app-kvkk-envanter>
 
 <div class="container">
   <app-veri-giris></app-veri-giris>
 </div>
+-->
+<!-- <app-sign-in-amator></app-sign-in-amator> -->
+
+ <nav>
+  <ul>
+    <li>
+      <a
+        routerLink="/sign-in"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >Giriş Yap</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/sign-up"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >Kayıt Ol</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/veri-giris"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >Veri Giriş</a
+      >
+    </li>
+  </ul>
+</nav>
 
 <router-outlet></router-outlet>
