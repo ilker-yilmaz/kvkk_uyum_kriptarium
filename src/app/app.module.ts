@@ -14,6 +14,7 @@ import { KvkkEnvanterComponent } from './components/kvkk-envanter/kvkk-envanter.
 import { VeriGirisComponent } from './components/veri-giris/veri-giris.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SignUpAmatorComponent,
     KvkkEnvanterComponent,
     VeriGirisComponent,
-    NavbarComponent
+    NavbarComponent,
+    SidebarMenuComponent
   ],
   imports: [
     BrowserModule,
