@@ -1,43 +1,19 @@
+<!--
+  if the user is login show the home page
+  else show the login page
+-->
+
 <app-navbar></app-navbar>
-<div >
+<br />
+<div>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-2">
       <app-sidebar-menu></app-sidebar-menu>
     </div>
-    <div class="col-md-9">
-      <router-outlet></router-outlet>
+    <div class="col-md-10">
+      <div class="container">
+        <router-outlet></router-outlet>
+      </div>
     </div>
   </div>
-
 </div>
-<!--
- <nav>
-  <ul>
-    <li>
-      <a
-        routerLink="/sign-in"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >Giriş Yap</a
-      >
-    </li>
-    <li>
-      <a
-        routerLink="/sign-up"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >Kayıt Ol</a
-      >
-    </li>
-    <li>
-      <a
-        routerLink="/veri-giris"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >Veri Giriş</a
-      >
-    </li>
-  </ul>
-</nav>
-
-<router-outlet></router-outlet> -->
