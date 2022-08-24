@@ -1,75 +1,104 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
 <body>
-  <div class="bg-warning"><h3>Kişisel Veri İşleme Envanteri</h3></div>
 
-  <div class="bg-primary"><h3>Organizasyon</h3></div>
+<h2>Search/Filter Dropdown</h2>
+<p>Click on the button to open the dropdown menu, and use the input field to search for a specific dropdown link.</p>
 
-  <div class="row m-0">
-    <div class="col border"><h4>Departman İsmi</h4></div>
-    <div class="col border"><h4>Bilgi Girişi Yapan Kişi</h4></div>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#about">About</a>
+    <a href="#base">Base</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    <a href="#custom">Custom</a>
+    <a href="#support">Support</a>
+    <a href="#tools">Tools</a>
   </div>
+</div>
 
-  <div class="bg-secondary"><h3>Süreç</h3></div>
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
-  <div class="row">
-    <div class="col border"><h4>İş Süreci</h4></div>
-    <div class="col border"><h4>Veri İşleme Faaliyetlerinin Açıklanması</h4></div>
-    <div class="col border"><h4>Kişisel Verisi İşlenilen Kişi</h4></div>
-    <div class="col border"><h4>Kişisel Verilerin Toplanma Yöntemi</h4></div>
-  </div>
-
-  <div class="bg-info"><h3>İşlenen Veriler</h3></div>
-
-  <div class="row">
-    <div class="col border"><h4>İşlenen Veriler (Kişisel veya Özel Nitelikli Veriler)</h4></div>
-    <div class="col border"><h4>İşlenen Kişisel Veri Kategorisi</h4></div>
-    <div class="col border"><h4>İşlenen Özel Nitelikli Veri Kategorisi</h4></div>
-    <div class="col border"><h4>İşlenmesi Gerekli Olmayan Veriler</h4></div>
-  </div>
-
-  <div class="bg-light"><h3>Amaç</h3></div>
-  <div class="row">
-    <div class="col border"><h4>Kişisel Verileri İşleme Amacı</h4></div>
-  </div>
-
-  <div class="bg-danger"><h3>Kişisel Verilerin Yurt İçindeki 3. Kişilere Aktarımı</h3></div>
-
-  <div class="row">
-    <div class="col border"><h4>Verilerin Yurt İçinde Paylaşıldığı Alıcı Grupları</h4></div>
-    <div class="col border"><h4>Yurt İçindeki Alıcı Grupları ile Paylaşım Amaçları</h4></div>
-  </div>
-
-  <div class="bg-success"><h3>Kişisel Verilerin Yurt Dışındaki 3. Kişilere Aktarımı</h3></div>
-
-  <div class="row">
-    <div class="col border"><h4>Verilerin Yurt Dışında Paylaşıldığı Alıcı Grupları</h4></div>
-    <div class="col border"><h4>Yurt Dışına Paylaşılan Veriler</h4></div>
-    <div class="col border"><h4>Verilerin Yurt Dışına Aktarıldığı Ülke/ler</h4></div>
-    <div class="col border"><h4>Yurt Dışındaki Alıcı Grupları ile Paylaşım Amaçları</h4></div>
-  </div>
-
-  <div class="bg-danger"><h3>Saklama</h3></div>
-
-  <div class="row">
-    <div class="col border"><h4>Süreç Kapsamında İşlenen Verilerin Ne Kadar Süre İle Saklanması Gerekmektedir ?</h4></div>
-    <div class="col border"><h4>Kayıtların Tutulduğu Alanlar - Veriler Nerede Saklanıyor</h4></div>
-    <div class="col border"><h4>Kişisel Verilere Erişebilen Kişiler</h4></div>
-  </div>
-
-  <div class="bg-danger"><h3>Hukuksal Dayanak</h3></div>
-
-  <div class="row">
-    <div class="col border"><h4>Hukuksal Dayanak</h4></div>
-  </div>
-
-  <div class="bg-danger"><h3>Güvenlik Tedbirleri</h3></div>
-
-  <div class="row">
-    <div class="col border"><h4>Kişisel Verileri Korumak İçin Alınan Teknik ve İdari Tedbirler Nelerdir ?</h4></div>
-  </div>
-
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
 
 </body>
 </html>
+
