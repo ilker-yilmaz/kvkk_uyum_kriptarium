@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'sign-up', component: SignUpAmatorComponent },
   { path: 'veri-giris', component: VeriGirisComponent },
   { path: 'user-profile', component: UserProfileComponent },
-  { path: '',   redirectTo: '/veri-giris-component', pathMatch: 'full' }, // redirect to `first-component`
+  { path: '',   redirectTo: '/veri-giris', pathMatch: 'full' }, // redirect to `first-component`
 
 ];
 
