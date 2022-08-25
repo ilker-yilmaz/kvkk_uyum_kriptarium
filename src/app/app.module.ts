@@ -15,6 +15,7 @@ import { VeriGirisComponent } from './components/veri-giris/veri-giris.component
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.com
     KvkkEnvanterComponent,
     VeriGirisComponent,
     NavbarComponent,
-    SidebarMenuComponent
+    SidebarMenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
